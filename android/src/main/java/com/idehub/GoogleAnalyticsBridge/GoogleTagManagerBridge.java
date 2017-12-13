@@ -66,7 +66,7 @@ public class GoogleTagManagerBridge extends ReactContextBaseJavaModule {
                 }
                 openOperationInProgress = false;
             }
-        }, 2000, TimeUnit.MILLISECONDS);
+        }, 8000, TimeUnit.MILLISECONDS);
     }
 
     @ReactMethod
